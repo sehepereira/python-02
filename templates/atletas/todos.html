@@ -1,0 +1,33 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <html class="fundo">
+        <body class="fundo">
+            <h1 class="titulo" >Olimpíadas</h1>
+            <h2 class="titulo" >Informações:</h2>
+        </body>
+        <tbody>
+            <thead>
+                <h3 class="subtitulo">Total de atletas participantes</h3>
+                <h3 class="botao"><button class="disabled">{{total_atletas}}</button></h3>
+                <h3 class="subtitulo">Total de atletas homens participantes</h3>
+                <h3 class="botao"><button >{{atletas_homens}}</button></h3>
+                </h3>
+                <h3 class="subtitulo">Total de atletas mulheres participantes</h3>
+                <h3 class="botao"><button >{{atletas_mulheres}}</button></h3>
+                <h3 class="voltar">
+                    <button onclick='window.location.href = "/"'>Voltar</button>
+                </h3>
+                <html>
+                {{td}}
+                </html>
+            </thead>
+        </tbody>
+    </html>
+    
+    
+    
+
+    
+    
+
+{% endblock %}

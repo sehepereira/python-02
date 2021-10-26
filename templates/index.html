@@ -1,0 +1,27 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <html class="fundo">
+        <body class="fundo">
+            <h1 class="titulo" >Olimpíadas</h1>
+            <h2 class="titulo" >Escolha um ponto para mais informações:</h2>
+        </body>
+        <tbody>
+            <thead >
+                <h3 class="subtitulo">Atletas </h3>
+                <h3 class="botao"><button  onclick='window.location.href = "/atletas/todos"'>Buscar</button></h3>
+                <h3 class="subtitulo">Esportes </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/esportes/inicio"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Medalhas </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/inicio"'>Buscar</button>
+                </h3 >
+                <h3 class="subtitulo">Paises </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/paises/inicio"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Gráficos </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/graficos/todos"'>Buscar</button>
+                </h3>
+            </thead>
+        </tbody>
+    </html>
+{% endblock %}

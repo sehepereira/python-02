@@ -1,0 +1,25 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <html class="fundo">
+        <body class="fundo">
+            <h1 class="titulo" >Olimpíadas</h1>
+            <h2 class="titulo" >Escolha um ponto para mais informações:</h2>
+        </body>
+        <tbody>
+            <thead>
+                <h3 class="subtitulo">Quantidade de treinadores por pais</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/paises/quantidade_de_treinadores_por_pais"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Pais com mais treinadores</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/paises/pais_com_mais_treinadores"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Quantidade de times por esporte cada pais possui</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/paises/quantidade_de_times_por_esporte_cada_pais_possui"'>Buscar</button>
+                </h3>
+                <h3 class="voltar">
+                    <button onclick='window.location.href = "/"'>Voltar</button>
+                </h3>
+            </thead>
+        </tbody>
+    </html>
+{% endblock %}

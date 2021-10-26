@@ -1,0 +1,26 @@
+.botao{
+    width: 30px;
+    text-align: right;
+    float:right;
+    margin-top: 30px;
+}
+.voltar{
+    width: 30px;
+    text-align: right;
+    margin-top:300px;
+}
+.subtitulo{
+    text-align: left;
+    clear: both;
+    float:left;
+    margin-top:30px;
+}
+.titulo{
+    text-align: center;
+    clear: both;
+    float:center;
+    margin-top:30px;
+}
+.fundo{
+    background-color: #90ee90;
+}

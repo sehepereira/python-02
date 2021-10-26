@@ -1,0 +1,28 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <html class="fundo">
+        <body class="fundo">
+            <h1 class="titulo" >Olimpíadas</h1>
+            <h2 class="titulo" >Graficos</h2>
+        </body>
+        <tbody>
+            <thead>
+                <h3>Esportes com mais inscritos:</h3>
+                    <img src="../static/esporte_com_mais_incritos.PNG">
+                <h3>Paises com mais medalhas:</h3>
+                    <img src="../static/paises_com_mais_medalhas.jpg">
+                <h3>Quantidade Treinadores por pais:</h3>
+                    <img src="../static/quantidade_treinadores_por_pais.PNG">
+                <h3>Total de esporte por pais:<h3>
+                    <img src="../static/total_esportes_por_pais.PNG">
+                </h3>
+                <h3>Total de participante por pais:<h3>
+                    <img src="../static/total_participantes_por_pais.PNG">
+                </h3>
+                <h3 class="voltar">
+                    <button onclick='window.location.href = "/"'>Voltar</button>
+                </h3>
+            </thead>
+        </tbody>
+    </html>
+{% endblock %}

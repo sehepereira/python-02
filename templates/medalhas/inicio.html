@@ -1,0 +1,41 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <html class="fundo">
+        <body class="fundo">
+            <h1 class="titulo" >Olimpíadas</h1>
+            <h2 class="titulo" >Escolha um ponto para mais informações:</h2>
+        </body>
+        <tbody>
+            <thead>
+                <h3 class="subtitulo">Total de medalhas por pais</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/total_de_medalhas_dos_pais"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Rank de medalhas por pais</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/rank_de_melhadas_por_pais"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Pais com mais medalhas de ouro</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/pais_com_mais_medalha_ouro"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Pais com mais medalhas de prata</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/pais_com_mais_medalha_prata"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Pais com mais medalhas de bronze</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/pais_com_mais_medalha_bronze"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Paises com menos medalhas de Ouro</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/pais_com_menos_medalha_ouro"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Paises com menos medalhas de Prata</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/pais_com_menos_medalha_prata"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Paises com menos medalhas de Bronze</h3>
+                <h3 class="botao"><button onclick='window.location.href = "/medalhas/pais_com_menos_medalha_bronze"'>Buscar</button>
+                </h3>
+
+                <h3 class="voltar">
+                    <button onclick='window.location.href = "/"'>Voltar</button>
+                </h3>
+            </thead>
+        </tbody>
+    </html>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <html class="fundo">
+        <body class="fundo">
+            <h1 class="titulo" >Olimpíadas</h1>
+            <h2 class="titulo" >Escolha um ponto para mais informações:</h2>
+        </body>
+        <tbody>
+            <thead>
+                <h3 class="subtitulo">Esportes participantes </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/esportes/esportes_participantes"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Esportes com mais homens que mulheres </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/esportes/esportes_com_mais_homens_que_mulheres"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Esportes com mais mulheres que homens </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/esportes/esportes_com_mais_mulheres_que_homens"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Quantidade de treinadores por esporte </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/esportes/quantidade_de_treinadores_por_esporte"'>Buscar</button>
+                </h3>
+                <h3 class="subtitulo">Total de participantes por esporte </h3>
+                <h3 class="botao"><button onclick='window.location.href = "/esportes/quantidade_de_participantes_por_esporte"'>Buscar
+                </h3>
+                <h3 class="voltar">
+                    <button  onclick='window.location.href = "/"'>Voltar</button>
+                </h3>
+            </thead>
+        </tbody>
+    </html>
+{% endblock %}
